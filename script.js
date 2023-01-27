@@ -25,7 +25,7 @@ return;
 if(diff.getUTCMonth()==0 && Number(diff.getUTCDate()-1)==0 )
 {
 output.innerHTML = "<h2>Woww!!! Happy Birthday <br>Dear User</h2><br><marquee>Many Many returns of the day</marquee>"+"Age: "+" "+Number(diff.getUTCFullYear()-1970)+" years "+" "+diff.getUTCMonth() +" months "+" "+Number(diff.getUTCDate()-1) +" days ";
-let audio = new Audio("badde.MPEG");
+let audio = new Audio("badde.mp3");
 audio.play();
 play.addEventListener("click");
 return ;
